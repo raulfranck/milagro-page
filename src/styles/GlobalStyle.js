@@ -15,6 +15,7 @@ export default createGlobalStyle`
     border: 0;
     outline: 0;
     font-family: 'roboto', sans-serif;
+    font-weight: bold;
   }
 
   :root {
