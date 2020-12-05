@@ -1,11 +1,21 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from '../../assets/images/logo.jpg';
-import Startupgrind from '../../assets/images/startupgrind.png';
 
+import Logo from '../../assets/images/logo.jpg';
 import Video from '../Video/index';
 
-import { Nav, NavbarContainer, NavLogo, NavImage, MobileIcon, NavMenu, NavItem, NavLinks, SeloSide, SeloLogo, SeloImg, StartupText } from './style';
+import SeloStartupGrind from '../SeloStartupGrind/index';
+
+import {
+  Nav,
+  NavbarContainer,
+  NavLogo,
+  NavImage,
+  MobileIcon,
+  NavMenu,
+  NavItem,
+  NavLinks
+} from './style';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -14,12 +24,7 @@ const Navbar = () => {
 
   return (
     <>
-      <SeloSide>
-        <SeloLogo>
-          <SeloImg src={Startupgrind} />
-        </SeloLogo>
-        <StartupText>Selected to attend the Startup Grind Global Conference 2020 as Exhibitor</StartupText>
-      </SeloSide>
+      <SeloStartupGrind />
       <Video></Video>
       <Nav>
         <NavbarContainer>
