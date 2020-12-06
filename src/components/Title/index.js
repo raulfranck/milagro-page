@@ -6,7 +6,7 @@ const Title = (props) => {
   return (
     <>
       <TitleContainer>
-        <p>{props.props.firstTitle}</p>
+        <p>{props.props}</p>
         <span></span>
       </TitleContainer>
     </>

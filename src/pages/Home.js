@@ -20,13 +20,15 @@ const HomePage = () => {
       <SeloStartupGrind />
       <Video />
 
-      <Title props={titleText} />
+      <Title props={titleText.firstTitle} />
 
       <SvgDescription />
 
       <ButtonSection />
 
       <Clients />
+
+      <Title props={titleText.secondTitle} />
     </>
   )
 }
