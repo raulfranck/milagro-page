@@ -19,7 +19,7 @@ const Video = () => {
 
       <ButtonBanner>
         Watch Video
-        <img src={PlayIcon}></img>
+        <img src={PlayIcon} alt="Play video"></img>
       </ButtonBanner>
 
       <VideoStyle src={Vid} muted autoPlay loop poster={Poster} />

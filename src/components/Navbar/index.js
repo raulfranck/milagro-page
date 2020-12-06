@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 import Logo from '../../assets/images/logo.jpg';
-import Video from '../Video/index';
-
-import SeloStartupGrind from '../SeloStartupGrind/index';
 
 import {
   Nav,
@@ -24,8 +21,6 @@ const Navbar = () => {
 
   return (
     <>
-      <SeloStartupGrind />
-      <Video></Video>
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">
