@@ -6,6 +6,8 @@ import Title from '../components/Title/index';
 import SvgDescription from '../components/SvgDescription/index';
 import ButtonSection from '../components/ButtonSection/index';
 import Clients from '../components/Clients/index';
+import CarouselContainer from '../components/carousel/index';
+import Rodape from '../components/Rodape/index';
 
 const titleText = {
   firstTitle: "Reasons to believe in Milagro",
@@ -19,16 +21,13 @@ const HomePage = () => {
       <Navbar />
       <SeloStartupGrind />
       <Video />
-
       <Title props={titleText.firstTitle} />
-
       <SvgDescription />
-
       <ButtonSection />
-
       <Clients />
-
       <Title props={titleText.secondTitle} />
+      <CarouselContainer></CarouselContainer>
+      <Rodape />
     </>
   )
 }
