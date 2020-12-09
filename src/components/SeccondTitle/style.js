@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const TitleContainer = styled.div`
+
+  padding-top: 250px;
   display: flex;
   flex-direction: column;
 
@@ -10,11 +12,11 @@ export const TitleContainer = styled.div`
   align-items: center;
   text-align: center;
 
-  background: var(--white);
+  background: var(--secondary);
   padding: 70px;
   > p {
     font-size: 35px;
-    color: var(--secondary);
+    color: var(--white);
   }
 
   > span {
@@ -23,4 +25,5 @@ export const TitleContainer = styled.div`
     margin-top: 15px;
     background: var(--text);
   }
+
 `

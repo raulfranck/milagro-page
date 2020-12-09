@@ -36,13 +36,13 @@ const Navbar = () => {
               <NavLinks to='/'>Home</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='/'>Features</NavLinks>
+              <NavLinks to='/features'>Features</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='/'>Galery</NavLinks>
+              <NavLinks to='/gallery'>Gallery</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='/'>Plans</NavLinks>
+              <NavLinks to='/plans'>Plans</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='/'>FAQ</NavLinks>

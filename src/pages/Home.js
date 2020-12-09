@@ -1,4 +1,5 @@
 import React from 'react';
+
 import SeloStartupGrind from '../components/SeloStartupGrind/index';
 import Video from '../components/Video/index';
 import Navbar from '../components/Navbar/index';

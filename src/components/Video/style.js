@@ -17,6 +17,7 @@ export const VideoStyle = styled.video`
 	height: auto;
 	
 	z-index: -1000;
+	
 `
 
 export const BannerCount = styled.div`
