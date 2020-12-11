@@ -1,6 +1,9 @@
 import React from 'react';
 
-import { Container, Card } from './style';
+import { Container, Card, IndividualButton, TeamButton } from './style';
+
+import individualIcon from '../../assets/plans/individual-plans.png';
+import teamIcon from '../../assets/plans/team-plans.png';
 
 const PlansContainer = () => {
   return (
@@ -8,14 +11,18 @@ const PlansContainer = () => {
       <Container>
         <div>
           <Card>
-            <img src="" alt="" />
-            <p>Operate Milagro in your career</p>
-            <button>Individual Plans</button>
+            <div>
+              <img src={individualIcon} alt="individual plans icon" />
+            </div>
+            <p>Operate Milagro <br /> in your <span style={{ color: "var(--text)" }}>Career</span></p>
+            <IndividualButton>Individual Plans</IndividualButton>
           </Card>
           <Card>
-            <img src="" alt="" />
-            <p>Operate Milagro in your Businnes</p>
-            <button>Individual Plans</button>
+            <div>
+              <img src={teamIcon} alt="team plans icon" />
+            </div>
+            <p>Operate Milagro <br />in your <span style={{ color: "#4a90e2" }}>Businnes</span></p>
+            <TeamButton>Individual Plans</TeamButton>
           </Card>
         </div>
       </Container>

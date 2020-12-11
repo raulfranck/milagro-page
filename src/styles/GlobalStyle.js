@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import styled from 'styled-components';
 
 export default createGlobalStyle`
  * {
@@ -28,5 +29,16 @@ export default createGlobalStyle`
     --divisors: #F4F5F7;
   }
 
+`;
+
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  
+
+  background: var(--divisors);
 `;
 
