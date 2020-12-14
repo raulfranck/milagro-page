@@ -50,19 +50,19 @@ const Rodape = () => {
             <MenuB>
               <ul>
                 <p>It`s a Milagro</p>
-                <a href="/">
+                <a href="/youtubebanner">
                   <li>Youtube Banner Maker</li>
                 </a>
-                <a href="/">
+                <a href="/facebookbanner">
                   <li>Facebook Banner</li>
                 </a>
-                <a href="/">
+                <a href="/InstagramAds">
                   <li>Instagram Ads</li>
                 </a>
-                <a href="/">
+                <a href="/twitterads">
                   <li>Twitter Ads</li>
                 </a>
-                <a href="/">
+                <a href="/displayads">
                   <li>Display Ads</li>
                 </a>
               </ul>

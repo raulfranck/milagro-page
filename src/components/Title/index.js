@@ -2,11 +2,11 @@ import React from 'react';
 
 import { TitleContainer } from './style'
 
-const Title = (props) => {
+const Title = () => {
   return (
     <>
       <TitleContainer>
-        <p>{props.props}</p>
+        <p>Titulo padrão</p>
         <span></span>
       </TitleContainer>
     </>

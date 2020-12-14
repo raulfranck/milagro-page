@@ -10,10 +10,10 @@ import Clients from '../components/Clients/index';
 import CarouselContainer from '../components/carousel/index';
 import Rodape from '../components/Rodape/index';
 
-const titleText = {
+/* const titleText = {
   firstTitle: "Reasons to believe in Milagro",
   secondTitle: "Who believes in Milagro?"
-}
+} */
 
 const HomePage = () => {
 
@@ -22,11 +22,11 @@ const HomePage = () => {
       <Navbar />
       <SeloStartupGrind />
       <Video />
-      <Title props={titleText.firstTitle} />
+      <Title />
       <SvgDescription />
       <ButtonSection />
       <Clients />
-      <Title props={titleText.secondTitle} />
+      <Title />
       <CarouselContainer></CarouselContainer>
       <Rodape />
     </>

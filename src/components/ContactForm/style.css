@@ -1,0 +1,90 @@
+.input-name {
+  outline: 0;
+
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 100;
+  color: #8F8F8F;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+}
+
+.input-email {
+  outline: 0;
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 100;
+  color: #8F8F8F;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+}
+
+.input-phone {
+  outline: 0;
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 100;
+  color: #8F8F8F;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+}
+
+.input-country {
+  margin-left: 2.3%;
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 10px;
+  width: 42%;
+  font-size: 15px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+}
+
+.input-company {
+  outline: 0;
+  margin-top: 15px;
+  
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 100;
+  color: #8F8F8F;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+}
+
+.input-textarea {
+  outline: 0;
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 100;
+  color: #8F8F8F;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+  resize: none;
+}
+
+.button-submit {
+  padding: 15px;
+  text-align: center;
+  border-radius: 30px;
+  width: 195px;
+  background: #f34b5e;
+  color: #fff;
+  font-size: 18px;
+  box-shadow: none;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: 0.3s;
+  margin: 15px auto;
+}

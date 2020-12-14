@@ -7,6 +7,12 @@ import Gallery from './pages/Gallery';
 import FeaturesPage from './pages/Features';
 import Plans from './pages/Plans';
 import Faq from './pages/Faq';
+import YoutubeBanner from './pages/YoutubeBanner';
+import FaceBookBanner from './pages/FaceBookBanner';
+import InstagramAds from './pages/InstagramAds';
+import TwitterAds from './pages/TwitterAds';
+import DisplayAds from './pages/DisplayAds';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -32,6 +38,30 @@ function App() {
 
           <Route path="/faq">
             <Faq />
+          </Route>
+
+          <Route path="/contact">
+            <Contact />
+          </Route>
+
+          <Route path="/youtubebanner">
+            <YoutubeBanner />
+          </Route>
+
+          <Route path="/facebookbanner">
+            <FaceBookBanner />
+          </Route>
+
+          <Route path="/instagramads">
+            <InstagramAds />
+          </Route>
+
+          <Route path="/twitterads">
+            <TwitterAds />
+          </Route>
+
+          <Route path="/displayads">
+            <DisplayAds />
           </Route>
 
         </Switch>

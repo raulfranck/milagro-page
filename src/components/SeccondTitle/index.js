@@ -6,7 +6,9 @@ const SeccondTitle = (props) => {
   return (
     <>
       <TitleContainer>
-        <p>{props.props.firstTitle}</p>
+        <p>Titulo padrao
+          
+        </p>
         <span></span>
 
       </TitleContainer>
